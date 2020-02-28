@@ -1,0 +1,848 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="olimpiada michoacana unam morelia umsnh">
+  <title>Olimpiada Michoacana de Matemáticas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/custom.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7076bdf2bb.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+    <a routerLink="/" class="navbar-brand" href="index.html">Olimpiada Michoacana de Matemáticas</a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item px-5" >
+        <a class="nav-link" href="omm.html">OMM</a>
+      </li>
+      <li class="nav-item active px-5">
+        <a class="nav-link" href="ommeb.html">OMMEB</a>
+      </li>
+      <li class="nav-item px-5">
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div class="container pt-md-5 pb-md-4 mx-auto ">
+  <h2>Olimpiada Mexicana de Matemáticas para Educación Básica (OMMEB)</h2>
+  <hr>
+  <h2><i class="fas fa-info-circle"></i> Avisos</h2>
+  <p class="card-text"><small class="text-muted">Última actualización el 28 de febrero de 2020</small></p>
+
+  <hr>
+  <div class="alert alert-warning text-center" role="alert">
+    <strong><i class="fas fa-exclamation-triangle"></i> Sábado 29 de febrero de 2020 no hay entrenamiento.</strong>
+  </div>
+  <div class="alert alert-primary" role="alert">
+    <p class="text-justify"><strong>Viernes 6 y sábado 7 de marzo de 2020,</strong> siguiente entrenamiento de la OMMEB.</p>
+    <p class="text-justify">El entrenamiento será en la Facultad de Físico Matemáticas UMSNH (edificio Alfa de Ciudad Universitaria en Morelia
+      Michoacán).</p>
+    <p class="text-justify">Comenzamos el viernes 6 de marzo a las 10:00 horas.</p>
+
+<!--      <p class="text-justify"><i class="fas fa-tshirt"></i>  El día del examen se venderán <a href="files/playerasomm.pdf" target="_blank"><u>playeras</u></a> de la Olimpiada de Michoacana de Matemáticas.</p>-->
+      <!--    <table class="table">-->
+      <!--      <thead class="thead-dark">-->
+      <!--      <tr>-->
+      <!--        <th scope="col" class="text-center">Hora</th>-->
+      <!--        <th scope="col" class="text-center">Actividad</th>-->
+      <!--      </tr>-->
+      <!--      </thead>-->
+      <!--      <tbody>-->
+      <!--      <tr>-->
+      <!--        <th scope="row" class="text-center">10:00 - 11:30 </th>-->
+      <!--        <td class="text-center">Entrenamiento</td>-->
+      <!--      </tr>-->
+      <!--      <tr>-->
+      <!--        <th scope="row" class="text-center">11:30 - 11:45</th>-->
+      <!--        <td class="text-center">Descanso</td>-->
+      <!--      </tr>-->
+      <!--      <tr>-->
+      <!--        <th scope="row" class="text-center">11:45 - 13:15 </th>-->
+      <!--        <td class="text-center">Entrenamiento</td>-->
+      <!--      </tr>-->
+      <!--      </tbody>-->
+      <!--    </table>-->
+
+      <!--    <p class="text-justify">-->
+      <!--    <ul class="list-group list-group-flush">-->
+      <!--      <li class="list-group-item">Será necesario llevar papel, goma y lápiz o lapicero.</li>-->
+      <!--      <li class="list-group-item">Te recomendamos llevar un refrigerio.</li>-->
+      <!--      <li class="list-group-item">Los alumnos clasificados que no estén en alguno de los grados correspondientes a los niveles no deben de asistir a los entrenamientos.</li>-->
+      <!--    </ul>-->
+      <!--    </p>-->
+
+  </div>
+<!--  <div class="alert alert-primary" role="alert">-->
+<!--    <p class="text-justify"><strong>Tarea 5</strong></p>-->
+<!--    <ul class="list-group list-group-horizontal">-->
+<!--      <li class="list-group-item"><a href="files/Tar5Niv1.pdf" class="alert-link" target="_blank"><i class="fas fa-file-download"></i> Nivel 1</a></li>-->
+<!--      <li class="list-group-item"><a href="files/Tar5Niv2.pdf" class="alert-link" target="_blank"><i class="fas fa-file-download"></i> Nivel 2</a></li>-->
+<!--      <li class="list-group-item"><a href="files/Tar5Niv3.pdf" class="alert-link" target="_blank"><i class="fas fa-file-download"></i> Nivel 3</a></li>-->
+<!--    </ul>-->
+<!--  </div>-->
+
+  <div class="alert alert-primary" role="alert">
+    <p><strong>Alumnos clasificados en el último examen <small>(información actualizada al 28 de febrero de 2020)</small></strong></p>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><strong>Nivel 1</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><strong>Nivel 2</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><strong>Nivel 3</strong></a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="pt-3 tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <table class="table table-sm col-6">
+          <thead class="thead-dark">
+          <tr><th>Alumnos clasificados en el nivel 1</th></tr>
+          <tr><td>Elias Daniel Herrera Amaya</td></tr>
+          <tr><td>Fátima Valeria Rangel Castillo</td></tr>
+          <tr><td>Gael Sebastián Pérez Téllez</td></tr>
+          <tr><td>Josué Daniel Magaña Rendón</td></tr>
+          <tr><td>Jukari Arantxa Gutiérrez Barrios</td></tr>
+          <tr><td>Mariano Paolo Cabrera Rojas</td></tr>
+          <tr><td>Varani Daniel Vega Moreno</td></tr>
+        </table>
+      </div>
+      <div class="pt-3 tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <table class="table table-sm col-6">
+          <thead class="thead-dark">
+          <tr><th>Alumnos claisificados en el nivel 2</th></tr>
+          <tr><td>Alejandro Cano Madrigal</td></tr>
+          <tr><td>Eduardo Sánchez Delgado</td></tr>
+          <tr><td>Fernando Isaí Escobedo Osorio</td></tr>
+          <tr><td>Héctor Moctezuma Benítez</td></tr>
+          <tr><td>Jaziz Cortés Camiro</td></tr>
+          <tr><td>Juan Pablo García Sotelo</td></tr>
+          <tr><td>Luis Gabriel Fuentes Aguilar</td></tr>
+          <tr><td>Luis Gabriel Saavedra Barajas</td></tr>
+          <tr><td>Paulo Mauricio Cardiel Guerrero</td></tr>
+          <tr><td>Raúl Jafet Urueta Cortes</td></tr>
+          <tr><td>Sofía Galindo Medina</td></tr>
+          <tr><td>Víctor Guzmán Rodríguez</td></tr>
+        </table>
+      </div>
+      <div class="pt-3 tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <table class="table table-sm col-6">
+          <thead class="thead-dark">
+          <tr><th>Alumnos clasificados en el nivel 3</th></tr>
+          <tr><td>Aimara Dannae Aguilar Orozco</td></tr>
+          <tr><td>Arie Zalo González Álvarez</td></tr>
+          <tr><td>Bialy Calderón Magaña</td></tr>
+          <tr><td>Camila Valencia Barragán</td></tr>
+          <tr><td>Carol Sofía Espino Mijangos</td></tr>
+          <tr><td>Darío Zamudio Vanegas</td></tr>
+          <tr><td>Diego Manuel Pérez González</td></tr>
+          <tr><td>Jorge Emilio Reynaga Sánchez</td></tr>
+          <tr><td>Luis Ángel Manica Díaz</td></tr>
+          <tr><td>Mariah Nicole Galaviz Ávalos</td></tr>
+          <tr><td>Miguel Enrique Rangel Castillo</td></tr>
+          <tr><td>Paulina Espinosa Benitez</td></tr>
+          <tr><td>Raciel Cabello Villalobos</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <a href="files/playerasomm.pdf" target="_blank"> <img src="img/playerasomm.png" class="card-img"  height="175px"></a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-tshirt"></i> Playeras de la Olimpiada Michoacana de Matemáticas</h5>
+          <p class="card-text mb-0">Ya puedes adquirir tu playera de la Olimpiada Michoacana de Matemáticas.</p>
+          <p class="small">Para más información puedes contactar al Delegado Estatal.</p>
+          <a href="files/playerasomm.pdf" class="btn btn-primary btn-sm" role="button" aria-pressed="true" target="_blank"><i class="fas fa-tshirt"></i> Ver diseños</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+  <h2><i class="fas fa-diagnoses"></i> Participación</h2>
+  <hr>
+
+  <p class="lead">Participación en los distintos niveles con un total de <strong>636</strong> participantes.</p>
+</div>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Nivel 1</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">215 <small class="text-muted">participantes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>1 online</li>
+          <li>214 presencial</li>
+        </ul>
+<!--        <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Clasificados</button>-->
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Nivel 2</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">282 <small class="text-muted">participantes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>26 online</li>
+          <li>256 presencial</li>
+        </ul>
+<!--        <button type="button" class="btn btn-lg btn-block btn-primary"data-toggle="modal" data-target=".bd-example-modal-lg2">Clasificados</button>-->
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Nivel 3</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">139 <small class="text-muted">participantes</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>34 online</li>
+          <li>105 presencial</li>
+        </ul>
+<!--        <button type="button" class="btn btn-lg btn-block btn-primary"data-toggle="modal" data-target=".bd-example-modal-lg3">Clasificados</button>-->
+      </div>
+    </div>
+    <p class="lead">Gracias por su participacíon en la Olimpiada Michoacana de Matemáticas para Educación Básica.</p>
+    <h5>¡Felicitamos enormemente a los clasificados!</h5>
+  </div>
+
+
+
+  <!--  <div class="alert alert-primary" role="alert">-->
+  <!--    <p class="text-justify"> El segundo entrenamiento se realizará el próximo <strong>18 de enero de 2020</strong> en las siguientes sedes:</p>-->
+  <!--    <ul class="list-group">-->
+  <!--      <li class="list-group-item">Apatzingán - Colegio de Bachilleres</li>-->
+  <!--      <li class="list-group-item">Lázaro Cárdenas - Colegio Anglo Buganvilias</li>-->
+  <!--      <li class="list-group-item">Morelia - Facultad de Físico Matemáticas UMSNH</li>-->
+  <!--      <li class="list-group-item">Sahuayo - Universidad de la Ciénega</li>-->
+  <!--      <li class="list-group-item">Tzintzuntzan - CECyTEM 19</li>-->
+  <!--    </ul>-->
+  <!--    <p class="text-justify pt-3">Puedes acudir a la que te quede más cerca.</p>-->
+  <!--    <p class="text-justify">Los alumnos clasificados que no estén en alguno de los grados correspondientes a los niveles no deben de asistir a los entrenamientos.</p>-->
+  <!--  </div>-->
+  <!--  <div class="alert alert-secondary" role="alert">-->
+  <!--    <p class="text-justify"><strong>Tarea 1</strong> que pueden realizar y entregar el día <strong>11 de enero de 2020</strong> cuando se presenten a las sedes.</p>-->
+  <!--    <ul class="list-group list-group-horizontal">-->
+  <!--      <li class="list-group-item"><a href="" class="alert-link"><i class="fas fa-file-download"></i> Nivel 1</a></li>-->
+  <!--      <li class="list-group-item"><a href="" class="alert-link"><i class="fas fa-file-download"></i> Nivel 2</a></li>-->
+  <!--      <li class="list-group-item"><a href="" class="alert-link"><i class="fas fa-file-download"></i> Nivel 3</a></li>-->
+  <!--    </ul>-->
+  <!--  </div>-->
+</div>
+<div class="container">
+  <footer class="pt-4 my-md-5 pt-md-5 border-top" id="contacto">
+    <div class="row">
+
+      <div class="col-6 col-md">
+        <h5>Contacto</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted">Delegado Estatal</a></li>
+          <li><a class="text-muted">Dr. Juan Ahtziri González Lemus</a></li>
+          <li><a class="text-muted" href="http://www.fismat.umich.mx/src/">Facultad de Ciencias Físico Matemáticas, UMNSH </a></li>
+          <li><a class="text-muted"><i class="fas fa-phone-alt"></i> Tel. 4433223500 ext. 1230</a></li>
+          <li class="text-muted"><i class="fas fa-envelope"></i> olimpiada.omm<i class="fas fa-at"></i>gmail.com</li>
+          <li class="text-muted"><i class="fas fa-envelope"></i> ahtziri<i class="fas fa-at"></i>cimat.mx</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <ul class="list-unstyled text-small text-center">
+          <li><a class="text-muted" href="https://www.umich.mx/">Universidad Michoacana de San Nicolás de Hidalgo</a></li>
+        </ul>
+        <a class="text-muted" href="https://www.umich.mx/"><img class="mx-auto d-block" src="img/umsnh.png" width="110px" height="110px"></a>
+      </div>
+      <div class="col-6 col-md">
+
+        <ul class="list-unstyled text-small text-center ">
+          <li><a class="text-muted" href="https://www.unam.mx/">Universidad Nacional Autónoma de México</a></li>
+        </ul>
+        <a class="text-muted" href="https://www.unam.mx/"><img class="mx-auto d-block" src="img/unam.png" width="100px" height="110px"></a>
+      </div>
+    </div>
+  </footer>
+  <small class="d-block mb-3 text-muted text-center">&copy; <a href="http://matmor.unam.mx" target="_blank">Centro de Ciencias Matemáticas, UNAM</a> 2020</small>
+</div>
+
+<!-- Nivel 1 -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="nivel1">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nivel 1 (4to y 5to de primaria)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table id="example" class="table table-striped table-bordered" >
+          <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Institución</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Ana Paloma Ramos Sandoval</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Ana Paola Corona Villa</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>André Hernández Suárez</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Constanza López Huerta</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Diego Silva Martinez</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Dona Yered Jaime Manzo</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Elias Danile Amaya Herrera</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Emilio Barajas Ruiz</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Fatima Valeria Rangel Castillo</td>
+            <td>Hispanoamericano</td>
+          </tr>
+          <tr>
+            <td>Gael Gastelum Mondragón</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Gael Sebastian Perez Tellez</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Giovanny David Amaya Herrera</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Jorge Antonio Baltierra López</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>José Daniel Magana Rendón</td>
+            <td>Mintzita</td>
+          </tr>
+          <tr>
+            <td>Juan Miguel Loaiza García</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Karlo Romeo Hernández Tafolla</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Leonardo Olguín Aceves</td>
+            <td>Little Friends (Santa María)</td>
+          </tr>
+          <tr>
+            <td>Manuel Hernández Lievanos</td>
+            <td>Little Friends (Santa Maria)</td>
+          </tr>
+          <tr>
+            <td>Mariana Median Montoya</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Mariano Ayala Ibarrola</td>
+            <td>Little Friends (Santa María)</td>
+          </tr>
+          <tr>
+            <td>Mariano Paolo Rojas Cabrera</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Melanie Yulenny Vergara Reyes</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Miguel Maza Estrada</td>
+            <td>Little Friends (Santa Maria)</td>
+          </tr>
+          <tr>
+            <td>Ricardo Ortíz Chávez</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Santiago Castalieda Guillen</td>
+            <td>Lázaro Cárdenas</td>
+          </tr>
+          <tr>
+            <td>Saúl Ojeda Cambrón</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Valentina Martínez Hernández</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Varani Daniel Moreno Vega</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Ximena Ponce de León Equihua</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Nivel 2 -->
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Nivel 2 (6to y 1ro de primaria)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table id="example2" class="table table-striped table-bordered" >
+          <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Institución</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Aaron Miranda García</td>
+            <td>Colegio Anglo de las Américas</td>
+          </tr>
+          <tr>
+            <td>Alejandro Cano Madrigal</td>
+            <td>Adolfo López Mateos</td>
+          </tr>
+          <tr>
+            <td>Eduardo Sánchez Delgado</td>
+            <td>10 de Abril </td>
+          </tr>
+          <tr>
+            <td>Fátima Estefany Pedraza Chagolla</td>
+            <td>Sec. Hermanos Flores Magón</td>
+          </tr>
+          <tr>
+            <td>Fernando Isai Escobedo Osorio</td>
+            <td>Instituto del Valle </td>
+          </tr>
+          <tr>
+            <td>Gabriel Fernando Gutiérrez Torres</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Héctor Moctezuma Benítez</td>
+            <td>Colegio Anglo de las Américas</td>
+          </tr>
+          <tr>
+            <td>Ingrid Peña Maciel</td>
+            <td>Escuela Secundaria Técnica No.110</td>
+          </tr>
+          <tr>
+            <td>Jafet Urueta Cortés</td>
+            <td>Narciso Mendoza</td>
+          </tr>
+          <tr>
+            <td>Jaziz Cortés Camiro</td>
+            <td>Colegio de las Américas </td>
+          </tr>
+          <tr>
+            <td>Joah Manuel Tapia Torres</td>
+            <td>10 de Abril</td>
+          </tr>
+          <tr>
+            <td>Jorge Uriel Morales Chávez</td>
+            <td>Sec. Siervo de la Nación</td>
+          </tr>
+          <tr>
+            <td>Juan Pablo García Sotelo</td>
+            <td>Secundaria Federal No. 11 </td>
+          </tr>
+          <tr>
+            <td>Leonardo Martínez Tello</td>
+            <td>Colegio Colón</td>
+          </tr>
+          <tr>
+            <td>Luis Gabriel Fuentes Aguilar</td>
+            <td>Presidente Adolfo López Mateos</td>
+          </tr>
+          <tr>
+            <td>Luis Gabriel Saavedra Barajas</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>María Macouzet Farías</td>
+            <td>Little Friends (Sta Maria)</td>
+          </tr>
+          <tr>
+            <td>Mariana Lizeth Roque Cortés</td>
+            <td>Narciso Mendoza</td>
+          </tr>
+          <tr>
+            <td>Marypaz Silva Flores</td>
+            <td>Little Friends (Chapultepec)</td>
+          </tr>
+          <tr>
+            <td>Matheo Ghael Cabrera Rojas</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Miriam Candelaria de la Cruz</td>
+            <td>Presidente Adolfo Lopez Mateo</td>
+          </tr>
+          <tr>
+            <td>Oliver Zamora Gómez</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Paulo Mauricio Cardiel Guerrero</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Raúl Garcia Ortíz</td>
+            <td>Little Friends (Chapullepec)</td>
+          </tr>
+          <tr>
+            <td>Romina Ruiz Aguilar</td>
+            <td>Little Friends (Sta Maria)</td>
+          </tr>
+          <tr>
+            <td>Sabine Yuritzi García Rangel</td>
+            <td>Colegio Mano Amiga</td>
+          </tr>
+          <tr>
+            <td>Santiago Álvarez Pola</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Saúl Yerad Estrada Pastrara</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Sigried Estrada Cortés</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Soafia Galindo Medina</td>
+            <td>Primaria Simón Bolivar</td>
+          </tr>
+          <tr>
+            <td>Valeria Villaseñor Huerta</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Verónica Calvillo Gallegos</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Víctor Guzmán Rodríguez</td>
+            <td>Centro Escolar Lancaster</td>
+          </tr>
+          <tr>
+            <td>Yohuali Higareda Rayas</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Zaira Guadalupe Barrera Ortíz</td>
+            <td>Narciso Mendoza</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nivel 3 -->
+<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Nivel 3 (2do de secundaria)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table id="example3" class="table table-striped table-bordered" >
+          <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Institución</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Aarón Gálvez Gómez</td>
+            <td>Colegio Interamericano</td>
+          </tr>
+          <tr>
+            <td>Ahmed Pérez Ballesteros</td>
+            <td>Instituto Harvard de Morelia</td>
+          </tr>
+          <tr>
+            <td>Aimara Dannae Aguilar Orozco</td>
+            <td>Colegio Anglo de las Americas</td>
+          </tr>
+          <tr>
+            <td>Alejandro Alonso Membrila</td>
+            <td>Centro Escolar Lancaster Morelia</td>
+          </tr>
+          <tr>
+            <td>Alexia Gandulfo Ciprés</td>
+            <td>Colegio Colón</td>
+          </tr>
+          <tr>
+            <td>Ana Michelle Paredes</td>
+            <td>Instituto Harvard de Morelia</td>
+          </tr>
+          <tr>
+            <td>Andrea Torres Aceves</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Angel Rubio López</td>
+            <td>Escuela Secundaria Federal 1</td>
+          </tr>
+          <tr>
+            <td>Arie Zalo González Álvarez</td>
+            <td>Colegio Anglo de las Americas</td>
+          </tr>
+          <tr>
+            <td>Bialy Calderón Magaña</td>
+            <td>Instituto Harvard de Morelia</td>
+          </tr>
+          <tr>
+            <td>Camila Olloqui Valdovinos</td>
+            <td>Colegio Colón</td>
+          </tr>
+          <tr>
+            <td>Camila Valencia Barragán</td>
+            <td>Colegio Colón</td>
+          </tr>
+          <tr>
+            <td>Carlos Alberto Ortiz Cervantes</td>
+            <td>Sor Juana Inés de la Cruz</td>
+          </tr>
+          <tr>
+            <td>Carlos Espinoza Barragán</td>
+            <td>Colegio Interamericano</td>
+          </tr>
+          <tr>
+            <td>Carol Sofia Espino Mijangos</td>
+            <td>Colegio Anglo de las Americas</td>
+          </tr>
+          <tr>
+            <td>Dania Yael Hernández Sánchez</td>
+            <td>E.S.T. 6</td>
+          </tr>
+          <tr>
+            <td>Darío Zamudio Vanegas</td>
+            <td>Instituto Panamericano</td>
+          </tr>
+          <tr>
+            <td>David Friscioni Rivera</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Diego Alonso Gómez Martínez</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Diego Manuel Pérez Gonzales</td>
+            <td>Colegio Anglo de las Américas</td>
+          </tr>
+          <tr>
+            <td>Emmanuel de Jesús Estrada Molina</td>
+            <td>Colegio Interamericano</td>
+          </tr>
+          <tr>
+            <td>Francisco Javier Sánchez Espinoza</td>
+            <td>Colegio Interamericano</td>
+          </tr>
+          <tr>
+            <td>Giovanni Antonio Guerrero Robles</td>
+            <td>Instituto Panamericano</td>
+          </tr>
+          <tr>
+            <td>Giovanni Vidal Pablo Salas</td>
+            <td>E.S.T. 6</td>
+          </tr>
+          <tr>
+            <td>Grecia Juliette López Vega</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Iliana Torres Fernández</td>
+            <td>Colegio Anglo de las Américas</td>
+          </tr>
+          <tr>
+            <td>Jorge Emilio Reynaga Sánchez</td>
+            <td>Centro Escolar Lancaster Morelia</td>
+          </tr>
+          <tr>
+            <td>José Ramón Ponce Casas</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Karla Alejandra Curz Martínez</td>
+            <td>Colegio Mano Amiga</td>
+          </tr>
+          <tr>
+            <td>Karol Estefania Valdespino Ortega</td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>Leonel Ramírez Ángel</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Luis Ángel Manica Díaz</td>
+            <td>Colegio Colón</td>
+          </tr>
+          <tr>
+            <td>Ma. Jocelin Villacente González</td>
+            <td>E.S.T. 121</td>
+          </tr>
+          <tr>
+            <td>Mariah Nicole Galavíz Ávalos</td>
+            <td>Colegio Anglo de las Américas</td>
+          </tr>
+          <tr>
+            <td>Maximo Zahir Rica Fraga</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Melody Victoria Ramos Rodriguez</td>
+            <td>Instituto Panamericano</td>
+          </tr>
+          <tr>
+            <td>Miguel Ángel Pacheco Medina</td>
+            <td>Instituto Panamericano</td>
+          </tr>
+          <tr>
+            <td>Miguel Enrique Rangel Castillo</td>
+            <td>IVQ</td>
+          </tr>
+          <tr>
+            <td>Misaki Molina Abe</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Natalia Peña Reyes</td>
+            <td>Colegio de las Américas</td>
+          </tr>
+          <tr>
+            <td>Nataly Yire Orozco García</td>
+            <td>Colegio Anglo de las Americas</td>
+          </tr>
+          <tr>
+            <td>Neylan Perdomo Peñaloza</td>
+            <td>Little Friends (Av. Universidad)</td>
+          </tr>
+          <tr>
+            <td>Paulina Espinosa Benitez</td>
+            <td>Colegio Anglo de las Americas</td>
+          </tr>
+          <tr>
+            <td>Raciel Cabello Villalobos</td>
+            <td>Colegio Mano Amiga</td>
+          </tr>
+          <tr>
+            <td>Ricardo Abraham Oscos Sandoval</td>
+            <td>Instituto Panamericano</td>
+          </tr>
+          <tr>
+            <td>Rodolfo Arriaga Zamora</td>
+            <td>18 de Marzo</td>
+          </tr>
+          <tr>
+            <td>Tania García Martínez</td>
+            <td>Centro Escolar Lancaster Morelia</td>
+          </tr>
+          <tr>
+            <td>Ulises Charbel Gutiérrez Gómez</td>
+            <td>Centro Escolar Lancaster Morelia</td>
+          </tr>
+          <tr>
+            <td>Valeria Hernández Díaz</td>
+            <td>Instituto Antonio de Mendoza</td>
+          </tr>
+          <tr>
+            <td>Valeria Yocelyn Bautista Contreras</td>
+            <td>Colegio Colón</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $(document).ready(function() {
+    $('#example').DataTable();
+  } )
+  $(document).ready(function() {
+    $('#example2').DataTable();
+  } )
+  $(document).ready(function() {
+    $('#example3').DataTable();
+  } )
+</script>
+</body>
+
+
+</html>
+
